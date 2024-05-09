@@ -3,9 +3,9 @@ A classe `ArquivoLivros` é responsável pelo gerenciamento dos livros na biblio
 
 #### Métodos Implementados:
 
-- `adicionarTitulosListaInvertida(livro: Livro)`: Separa as palavras do título e as normaliza antes de adicionar à lista invertida.
-- `removerTitulosListaInvertida(termo: String) -> List<Livro>`: Separa as palavras do título e as normaliza antes de remover da lista invertida.
-- `buscarLivrosPorTermos(termos: List<String>) -> List<Livro>`: Realiza uma busca por livros que correspondem a vários termos nos títulos.
+- `adicionarTitulosListaInvertida(titulo: String, livroId: int)`: Separa as palavras do título e as normaliza antes de adicionar à lista invertida.
+- `removerTitulosListaInvertida(titulo: String, livroId: int)`: Separa as palavras do título e as normaliza antes de remover da lista invertida.
+- `buscarLivrosPorTermos(termos: String) -> List<Livro>`: Realiza uma busca por livros que correspondem a vários termos nos títulos.
 - Além de atualizações nos métodos já presentes para garantir o funcionamento do código
 
 - A inclusão de um livro acrescenta os termos do seu título à lista invertida? Sim
